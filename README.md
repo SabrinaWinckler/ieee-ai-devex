@@ -6,7 +6,7 @@ This document describes the data files used in the qualitative and quantitative 
 
 ## 1. quali_devex_rationale_quotes.csv
 
-This file contains the qualitative analysis data from participant observation in a meeting with 9 practitioners (n=9).
+This file contains the qualitative analysis data from participant observation in a meeting with 26 practitioners and 9 reporters (n=9) that share your experience.
 
 ### Columns:
 
