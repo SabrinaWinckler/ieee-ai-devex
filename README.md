@@ -6,14 +6,14 @@ This document describes the data files used in the qualitative and quantitative 
 
 ## 1. quali_devex_rationale_quotes.csv
 
-This file contains the qualitative analysis data from semi-structured interviews with 9 practitioners (n=9).
+This file contains the qualitative analysis data from participant observation in a meeting with 9 practitioners (n=9).
 
 ### Columns:
 
 | Column | Description |
 |--------|-------------|
 | **DevEx_Dimension** | The Developer Experience dimension associated with the quote (Flow State, Feedback Loops, or Cognitive Load) |
-| **Quote** | Direct quote from the participant during the interview |
+| **Quote** | Direct quote from the participant during the meeting |
 | **Participant** | Participant identifier (P1-P9) |
 | **Role** | Professional role of the participant (Tech Lead, Mid-level Dev, CTO, Specialist) |
 | **Tool** | AI tool used by the participant: **W** = Windsurf, **C** = GitHub Copilot |
