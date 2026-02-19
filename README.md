@@ -9,7 +9,7 @@ This repository contains the complete dataset and methodology documentation for 
 The datasets in this repository directly support the following analysis components:
 
 1. **Quantitative Analysis** - Telemetry data from GitHub Copilot users
-2. **Qualitative Analysis** - Interview transcripts and open-ended survey responses
+2. **Qualitative Analysis** - Participant observation quote transcripts
 3. **Mixed-Methods Integration** - Cross-validation of quantitative metrics with qualitative insights
 
 ---
