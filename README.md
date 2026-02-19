@@ -94,7 +94,7 @@ NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
 
 ### Phase 2: Qualitative Data Collection
 - **Method**: Participal observatopm
-- **Sample**: 9 participants (selected from meeting attendees)
+- **Sample**: 9 participants 
 - **Type**: Experience narratives, challenges, benefits, recommendations
 - **Purpose**: Understand subjective developer experience and contextual factors
 
