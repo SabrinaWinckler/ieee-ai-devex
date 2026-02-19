@@ -230,18 +230,15 @@ Together, these four fields are sufficient to replicate the aggregate metrics re
 
 ### Finding 1: High Adoption Among Technical Practitioners
 - **Quantitative Support**: 58.3% (21/36) active GitHub Copilot subscription rate
-- **Qualitative Support**: Interview data shows positive perception despite learning curve
-- **File Reference**: `copilot_telemetry_data.csv` + `anonymized_quote/`
+- **Qualitative Support**: Qualitative data shows positive perception despite learning curve
 
 ### Finding 2: Heterogeneous Usage Patterns
 - **Quantitative Support**: 47.2% active usage, 13.9% inactive, 22.2% non-adopters
 - **Qualitative Support**: Narratives reveal diverse adoption drivers (technical role, project type, organizational support)
-- **File Reference**: `usage_frequency_analysis.csv` + `survey_responses_open_ended.xlsx`
 
 ### Finding 3: Impact on Developer Experience Dimensions
 - **Quantitative Support**: Correlation between usage frequency and reported satisfaction
 - **Qualitative Support**: Thematic analysis reveals specific improvements in productivity and learning
-- **File Reference**: All datasets combined in `mixed_methods_integration_results.pdf`
 
 ---
 
