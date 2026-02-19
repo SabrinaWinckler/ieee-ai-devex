@@ -1,8 +1,208 @@
-# Qualitative Analysis - Data Files Description
+# IEEE AI-Powered Developer Experience (DevEx) Study
 
-This document describes the data files used in the qualitative and quantitative analysis of Developer Experience (DevEx) with AI coding assistants.
+## Project Overview
+
+This repository contains the complete dataset and methodology documentation for a mixed-methods research study investigating how AI coding assistants (specifically GitHub Copilot and Windsurf) impact Developer Experience across three core dimensions of the DevEx framework.
+
+### Repository Structure
+
+The datasets in this repository directly support the following analysis components:
+
+1. **Quantitative Analysis** - Telemetry data from GitHub Copilot users
+2. **Qualitative Analysis** - Interview transcripts and open-ended survey responses
+3. **Mixed-Methods Integration** - Cross-validation of quantitative metrics with qualitative insights
 
 ---
+
+## Study Participants & Data Collection Funnel
+
+### Participant Distribution
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  TOTAL TECHNICAL CONTRIBUTORS (T=0)                     │
+│  36 people                                               │
+│  (100%)                                                  │
+└────────────────┬────────────────────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────────────────────┐
+│  MEETING PARTICIPANTS                                    │
+│  26 people                                               │
+│  (72.2% of total)                                        │
+│  Participated in experience sharing session              │
+└────────────────┬────────────────────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────────────────────┐
+│  QUALITATIVE RESPONDENTS                                 │
+│  9 people                                                │
+│  (25% of total / 34.6% of meeting participants)          │
+│  Reported detailed experiences with AI tools             │
+└────────────────┬────────────────────────────────────────┘
+                 │
+                 ├─────────────────────────────────────────┐
+                 │                                         │
+                 ▼                                         ▼
+        ┌─────────────────────┐              ┌──────────────────────┐
+        │  COPILOT USERS      │              │  WINDSURF USERS      │
+        │  21 people          │              │  2 people            │
+        │  (58.3% of total)   │              │  (5.6% of total)     │
+        │  WITH TELEMETRY     │              │  QUALITATIVE ONLY    │
+        └──────────┬──────────┘              └──────────────────────┘
+                   │
+                   ├─────────────────────────────┐
+                   │                             │
+                   ▼                             ▼
+        ┌──────────────────────┐    ┌──────────────────────┐
+        │  ACTIVE USERS        │    │  INACTIVE USERS      │
+        │  (Last 7 days)       │    │  (7-30+ days)        │
+        │  17 people           │    │  4 people            │
+        │  (47.2% of total)    │    │  (11.1% of total)    │
+        │                      │    │                      │
+        │                      │    │  + 1 person          │
+        │                      │    │  (>30 days inactive) │
+        │                      │    │  (2.8% of total)     │
+        └──────────────────────┘    └──────────────────────┘
+
+NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
+```
+
+### Key Metrics
+
+| Category | Count | Percentage | Details |
+|----------|-------|-----------|---------|
+| **Total Technical Contributors** | 36 | 100% | Organization tech team at study period |
+| **Meeting Participants** | 26 | 72.2% | Attended experience sharing session |
+| **Qualitative Respondents** | 9 | 25.0% | Provided detailed narrative data |
+| **GitHub Copilot Users** | 21 | 58.3% | With telemetry data available |
+| **Windsurf Users** | 2 | 5.6% | Qualitative data only |
+| **No AI Tool Subscription** | 8 | 22.2% | Non-adopters |
+| **Copilot Active (≤7 days)** | 17 | 47.2% | Recent usage activity |
+| **Copilot Inactive (7-30 days)** | 4 | 11.1% | Moderate inactivity |
+| **Copilot Inactive (>30 days)** | 1 | 2.8% | Extended inactivity |
+
+---
+
+## Data Collection Methodology
+
+### Phase 1: Quantitative Data Collection
+- **Source**: GitHub Copilot telemetry data
+- **Sample**: 21 active GitHub Copilot users
+- **Type**: Usage metrics, acceptance rates, session duration
+- **Purpose**: Measure objective usage patterns and adoption trends
+
+### Phase 2: Qualitative Data Collection
+- **Method**: Participal observatopm
+- **Sample**: 9 participants (selected from meeting attendees)
+- **Type**: Experience narratives, challenges, benefits, recommendations
+- **Purpose**: Understand subjective developer experience and contextual factors
+
+### Phase 3: Mixed-Methods Integration
+- **Integration Point**: Cross-validation of quantitative usage patterns with qualitative experience narratives
+- **Analysis**: Correlation between tool usage frequency and reported satisfaction levels
+- **Outcome**: Comprehensive understanding of AI tool impact on DevEx
+
+---
+
+## DevEx Framework Dimensions
+
+This study analyzes AI coding assistant impact across three core DevEx dimensions:
+
+1. **Dimension 1: Flow State [Productivity & Efficiency]**
+   - Telemetry: Code completion acceptance rates, session frequency
+   - Qualitative: User-reported time savings and workflow integration
+
+2. **Dimension 2: Feedback Loops [Developer Satisfaction & Engagement]**
+   - Telemetry: Usage consistency and adoption patterns
+   - Qualitative: Experience narratives, perceived value, adoption barriers
+
+3. **Dimension 3: Cognitive Load [Learning & Skill Development]**
+   - Telemetry: Tool engagement patterns across experience levels
+   - Qualitative: Perceptions of learning outcomes and skill enhancement
+
+---
+
+## Dataset Files & Mapping to Analysis
+
+### Quantitative Datasets
+
+- **`copilot_telemetry_data.csv`** → Used in Section 3.1 (Adoption Analysis) & Section 4.1 (Usage Patterns)
+- **`acceptance_rates_by_user.csv`** → Used in Section 4.2 (Engagement Metrics) & Section 5.1 (Results)
+- **`usage_frequency_analysis.csv`** → Used in Section 4.3 (Adoption Trends) & Figure 3
+
+### Qualitative Datasets
+
+- **`interview_transcripts_anonymized/`** → Used in Section 3.2 (Qualitative Analysis) & Thematic Coding
+- **`survey_responses_open_ended.xlsx`** → Used in Section 5.2 (Experience Narratives) & Thematic Findings
+- **`field_notes_experience_session.txt`** → Used in Section 3.3 (Context & Observations)
+
+### Analysis & Results Files
+
+- **`thematic_analysis_codebook.xlsx`** → Methodology documentation for qualitative coding
+- **`mixed_methods_integration_results.pdf`** → Cross-validation findings between quantitative & qualitative data
+- **`devex_dimension_mapping.xlsx`** → Maps datasets to specific DevEx dimensions analyzed
+
+---
+
+## How Datasets Support Key Findings
+
+### Finding 1: High Adoption Among Technical Practitioners
+- **Quantitative Support**: 58.3% (21/36) active GitHub Copilot subscription rate
+- **Qualitative Support**: Interview data shows positive perception despite learning curve
+- **File Reference**: `copilot_telemetry_data.csv` + `anonymized_quote/`
+
+### Finding 2: Heterogeneous Usage Patterns
+- **Quantitative Support**: 47.2% active usage, 13.9% inactive, 22.2% non-adopters
+- **Qualitative Support**: Narratives reveal diverse adoption drivers (technical role, project type, organizational support)
+- **File Reference**: `usage_frequency_analysis.csv` + `survey_responses_open_ended.xlsx`
+
+### Finding 3: Impact on Developer Experience Dimensions
+- **Quantitative Support**: Correlation between usage frequency and reported satisfaction
+- **Qualitative Support**: Thematic analysis reveals specific improvements in productivity and learning
+- **File Reference**: All datasets combined in `mixed_methods_integration_results.pdf`
+
+---
+
+## Study Limitations & Data Considerations
+
+1. **Selection Bias**: Participants self-selected; may represent more positive adopters
+2. **Sample Size**: Qualitative sample (n=9) limits generalizability of narrative findings
+3. **Windsurf Representation**: Limited adoption (n=2) prevents robust comparative analysis
+4. **Temporal Scope**: Data captured at single time point; longitudinal trends not available
+5. **Telemetry Gaps**: 2 Windsurf users have qualitative data only; comparative telemetry limited
+
+---
+
+## Reproducibility & Transparency
+
+All data has been anonymized to protect participant privacy while maintaining analytical integrity:
+
+- Pratictioner identifiers replaced with randomized codes (P01-Pn)
+- Date information generalized to study week/month
+- Identifying demographic details removed from narratives
+- Organization name redacted from all files
+
+For questions about data access or methodology, please contact the research team or open an issue in this repository.
+
+---
+
+## Citation
+
+If you use these datasets in your research, please cite:
+
+```
+@article{authors2024devex,
+  title={IEEE AI-Powered Developer Experience Study: Mixed-Methods Analysis of GitHub Copilot and Windsurf Impact},
+  author={[Your Names]},
+  journal={[Journal Name]},
+  year={2024},
+  note={Dataset and supplementary materials available at: https://github.com/SabrinaWinckler/ieee-ai-devex}
+}
+```
+
+---
+
 
 ## 1. quali_devex_rationale_quotes.csv
 
