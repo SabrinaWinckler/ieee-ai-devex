@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains the complete dataset and methodology documentation for a mixed-methods research study investigating how AI coding assistants (specifically GitHub Copilot and Windsurf) impact Developer Experience across three core dimensions of the DevEx framework.
+This repository contains the complete dataset and methodology documentation for a mixed-methods research study investigating how AI coding assistants (specifically GitHub Copilot and Windsurf) impact Developer Experience across three core dimensions of the DevEx framework [Noda et al., 2023](https://queue.acm.org/detail.cfm?id=3595878).
 
 ### Repository Structure
 
@@ -187,19 +187,7 @@ For questions about data access or methodology, please contact the research team
 
 ---
 
-## Citation
 
-If you use these datasets in your research, please cite:
-
-```
-@article{authors2024devex,
-  title={IEEE AI-Powered Developer Experience Study: Mixed-Methods Analysis of GitHub Copilot and Windsurf Impact},
-  author={[Your Names]},
-  journal={[Journal Name]},
-  year={2024},
-  note={Dataset and supplementary materials available at: https://github.com/SabrinaWinckler/ieee-ai-devex}
-}
-```
 
 ---
 
@@ -264,6 +252,4 @@ This file contains quantitative usage metrics from GitHub Copilot collected betw
 
 ---
 
-## Usage in Research
 
-These datasets support the mixed-methods analysis of how AI coding assistants impact Developer Experience across three core dimensions defined by the DevEx framework (Noda et al., 2023).
