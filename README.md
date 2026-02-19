@@ -130,7 +130,7 @@ This study analyzes AI coding assistant impact across three core DevEx dimension
 - **`copilot_telemetry_data_from_july_to_august.csv`** → Used in Section 3.1 (Adoption Analysis), Section 4.1 (Usage Patterns),  Section 4.2 (Engagement Metrics), Section 4.3 (Adoption Trends), Figure 1 & Section 5.1 (Results)
 
 **How figure 1 is generated?**
-Bellow figure was gattered from Copilot Metrics Viewer Tool (v2.0.2)[https://github.com/github-copilot-resources/copilotmetrics-viewer/tree/v2.0.2]
+Bellow figure was gattered from Copilot Metrics Viewer Tool [v2.0.2](https://github.com/github-copilot-resources/copilotmetrics-viewer/tree/v2.0.2)
 <img width="924" height="530" alt="aceptanceRateByCount (1)" src="https://github.com/user-attachments/assets/1c3254b7-4507-40ad-964a-c62707899d01" />
 
 The telemetry data used in this analysis is publicly available in the study repository as a CSV file. Each row in the file represents an aggregated daily snapshot of GitHub Copilot usage across the active users, containing the following relevant columns: `date`, `suggestions_count`, `acceptances_count`, `lines_suggested`, and `lines_accepted`.
