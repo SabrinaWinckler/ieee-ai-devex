@@ -127,9 +127,41 @@ This study analyzes AI coding assistant impact across three core DevEx dimension
 
 ### Quantitative Datasets
 
-- **`copilot_telemetry_data.csv`** → Used in Section 3.1 (Adoption Analysis) & Section 4.1 (Usage Patterns)
-- **`acceptance_rates_by_user.csv`** → Used in Section 4.2 (Engagement Metrics) & Section 5.1 (Results)
-- **`usage_frequency_analysis.csv`** → Used in Section 4.3 (Adoption Trends) & Figure 3
+- **`copilot_telemetry_data_from_july_to_august.csv`** → Used in Section 3.1 (Adoption Analysis), Section 4.1 (Usage Patterns),  Section 4.2 (Engagement Metrics), Section 4.3 (Adoption Trends), Figure 1 & Section 5.1 (Results)
+
+**How figure 1 is generated?**
+Bellow figure was gattered from Copilot Metrics Viewer Tool (v2.0.2)[https://github.com/github-copilot-resources/copilotmetrics-viewer/tree/v2.0.2]
+<img width="924" height="530" alt="aceptanceRateByCount (1)" src="https://github.com/user-attachments/assets/1c3254b7-4507-40ad-964a-c62707899d01" />
+
+The telemetry data used in this analysis is publicly available in the study repository as a CSV file. Each row in the file represents an aggregated daily snapshot of GitHub Copilot usage across the active users, containing the following relevant columns: `date`, `suggestions_count`, `acceptances_count`, `lines_suggested`, and `lines_accepted`.
+
+To reproduce the usage trend visualized in Figure 1, one can group the data by `date` and plot `suggestions_count` against `acceptances_count` over time, making fluctuations in daily engagement immediately apparent. The suggestion-level acceptance rate — reported as 24.23% across the full study period — is computed as:
+
+$$\text{Acceptance Rate} = \frac{\sum \text{Acceptances Count}}{\sum \text{Suggestions Count}} \times 100$$
+
+Similarly, the line-level acceptance rate of 16.36% is derived from:
+
+$$\text{Line Acceptance Rate} = \frac{\sum \text{Lines Accepted}}{\sum \text{Lines Suggested}} \times 100$$
+
+| Reported Metric | CSV Column |
+|---|---|
+| 47,336 prompts | `suggestions_count` |
+| 98,797 suggestions | `lines_suggested` |
+| 24.23% acceptance rate | `acceptances_count / suggestions_count` |
+| 16.36% line acceptance | `lines_accepted / lines_suggested` |
+
+Together, these four fields are sufficient to replicate the aggregate metrics reported in this study (47,336 prompts, 98,797 suggestions, and a 24.23% suggestion-level acceptance rate among 21 developers over ten months).
+
+---
+
+> **⚠️ Note on Data Availability and Retention**
+>
+> The CSV file available in the repository covers only the period from **July to August 2025**, while the article presents data from **February to August 2025**. As a result, the values in the replication package will be lower than the cumulative figures reported in the paper — this is expected and does not indicate inconsistency.
+>
+> This limitation stems from a platform retention issue: **GitHub Copilot Metrics Viewer (v2.0.2)** had limited historical data retention. Figure 1 was exported during the study period. After upgrading to **v2.1.2**, access to raw telemetry for **May–June 2025** was no longer available, leaving only the July–August 2025 data for the replication package. Although this reduces data granularity, the cumulative metrics and visual trends still align with the reported statistics, preserving trend validity.
+>
+> For GitHub Copilot metrics, the analytic population consisted of the **21 active users** during the observation window. As noted, **Windsurf**'s individual subscription model does not provide organizational telemetry, so its usage was analyzed qualitatively only.
+
 
 ### Qualitative Datasets
 
