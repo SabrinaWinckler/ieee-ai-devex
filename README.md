@@ -127,7 +127,7 @@ This study analyzes AI coding assistant impact across three core DevEx dimension
 
 ### Quantitative Datasets
 
-- **`copilot_telemetry_data_from_july_to_august.csv`** → Used in Section 3.1 (Adoption Analysis), Section 4.1 (Usage Patterns),  Section 4.2 (Engagement Metrics), Section 4.3 (Adoption Trends), Figure 1 & Section 5.1 (Results)
+- **`copilot_telemetry_data_from_july_to_august.csv`** → Used in *"The Fintech Case Study"* (Quantitative data subsection), *"Adoption and Usage"* (usage trends and acceptance rate analysis), and **Figure 1** (daily suggestions vs. acceptances, May–Aug 2025)
 
 **How figure 1 is generated?**
 Bellow figure was gattered from Copilot Metrics Viewer Tool [v2.0.2](https://github.com/github-copilot-resources/copilotmetrics-viewer/tree/v2.0.2)
@@ -199,7 +199,7 @@ Together, these four fields are sufficient to replicate the aggregate metrics re
 
 ### Qualitative Datasets
 
-- **Coding Table: `devex_rationale_quotes.csv`** → Used in Section 3.2 (Qualitative Analysis) & Thematic Coding, Section 5.2 (Experience Narratives), Thematic Findings, Section 3.3 (Context & Observations)
+- **Coding Table: `devex_rationale_quotes.csv`** → Used in *"The Fintech Case Study"* (Qualitative data subsection), *"Practitioner's Perspectives on GitHub Copilot and Windsurf"* (**Figure 2** and **Table 2**), and *"Key Findings"* (productivity–validation tension)
 
 ### Analysis & Results Files
 
