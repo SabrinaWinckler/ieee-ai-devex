@@ -203,7 +203,7 @@ Together, these four fields are sufficient to replicate the aggregate metrics re
 
 ### Analysis & Results Files
 
-**quali_devex_rationale_quotes.csv**: This file contains the qualitative analysis data from participant observation in a meeting with 9 reporters (n=9) that share your experience.
+**devex_rationale_quotes.csv**: This file contains the qualitative analysis data from participant observation in a meeting with 26 practitioners, of whom 9 submitted in-depth reflections (n = 9) on their experiences with AI-assisted tools.
 
 ### Columns:
 
@@ -228,17 +228,34 @@ Together, these four fields are sufficient to replicate the aggregate metrics re
 
 ## How Datasets Support Key Findings
 
-### Finding 1: High Adoption Among Technical Practitioners
-- **Quantitative Support**: 58.3% (21/36) active GitHub Copilot subscription rate
-- **Qualitative Support**: Qualitative data shows positive perception despite learning curve
+This section explicitly maps each dataset to the specific findings, paper sections, and figures they support.
 
-### Finding 2: Heterogeneous Usage Patterns
-- **Quantitative Support**: 47.2% active usage, 13.9% inactive, 22.2% non-adopters
-- **Qualitative Support**: Narratives reveal diverse adoption drivers (technical role, project type, organizational support)
+### `copilot_telemetry_data_from_july_to_august.csv` → Quantitative Findings
 
-### Finding 3: Impact on Developer Experience Dimensions
-- **Quantitative Support**: Correlation between usage frequency and reported satisfaction
-- **Qualitative Support**: Thematic analysis reveals specific improvements in productivity and learning
+| Dataset columns | Supports | Where in the paper |
+|---|---|---|
+| `suggestions_count`, `acceptances_count` | 24.23% suggestion-level acceptance rate; comparison with Ziegler et al.'s 27% benchmark | Section *"Adoption and Usage"*, paragraph 3 |
+| `lines_suggested`, `lines_accepted` | 16.36% line-level acceptance rate; evidence of stable integration over 10 months | Section *"Adoption and Usage"*, paragraph 3 |
+| `date` + `suggestions_count` + `acceptances_count` (grouped by day) | Daily volatility of suggestions vs. acceptances; dips interpreted as task-dependent usage | **Figure 1** |
+| All columns aggregated | Cumulative totals: 47,336 prompts, 98,797 suggestions — evidence of sustained tool engagement | Abstract; Section *"Adoption and Usage"* |
+| `suggestions_count` by date | Heterogeneous usage trends: 4 users inactive >7 days, 1 user inactive >30 days | Section *"Adoption and Usage"*, paragraph 1 |
+
+**Key finding directly supported:** AI-assisted tools show stable, sustained integration in a fintech setting, with an acceptance rate consistent with prior literature — supporting the argument that GitHub Copilot's value extends beyond direct acceptance to inspiration and partial adaptation.
+
+---
+
+### `devex_rationale_quotes.csv` → Qualitative Findings
+
+| Dataset columns | Supports | Where in the paper |
+|---|---|---|
+| `DevEx_Dimension` + `Impact` | Frequency counts of themes per DevEx dimension (e.g., Cognitive Load most frequent at 33%) | **Table 2** — *Frequency of Qualitative Themes by DevEx Dimension* |
+| `Quote` + `Participant` + `Role` + `Tool` | Illustrative practitioner excerpts, annotated by tool (C/W) and impact (↑ ↓ ±) | **Figure 2** — *Practitioners' perspectives grouped by DevEx recurring themes* |
+| `Rationale` | Audit trail for deductive thematic coding aligned with the three DevEx dimensions | Section *"The Fintech Case Study"* — Qualitative data subsection |
+| `DevEx_Dimension = "Cognitive Load"` rows | Productivity–validation tension: developers report review and guidance burden alongside productivity gains | Section *"Key Findings"*, paragraph 1–2 |
+| `DevEx_Dimension = "Flow State"` rows | 5 participants report flow state improvements (transformative impact, learning acceleration, problem-solving) | Section *"Practitioner's Perspectives"*, paragraph 3 |
+| `DevEx_Dimension = "Feedback Loops"` rows | 2 participants liken AI to senior developers or effective assistants, signaling a shift in how developers conceptualize the programming process | Section *"Practitioner's Perspectives"*, paragraph 4 |
+
+**Key finding directly supported:** The productivity–validation paradox — AI tools enhance Flow State while simultaneously increasing Cognitive Load through validation requirements — is evidenced by the distribution of coded quotes across DevEx dimensions, particularly the negative-impact Cognitive Load entries (*"Review agent's work"*, *"Guide the agent"*, *"Steer the LLM Agent"*) coexisting with positive Flow State entries (*"It was a game changer"*, *"Accelerated learning curve"*).
 
 ---
 
