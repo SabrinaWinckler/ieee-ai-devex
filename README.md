@@ -165,16 +165,11 @@ Together, these four fields are sufficient to replicate the aggregate metrics re
 
 ### Qualitative Datasets
 
-- **`interview_transcripts_anonymized/`** → Used in Section 3.2 (Qualitative Analysis) & Thematic Coding
-- **`survey_responses_open_ended.xlsx`** → Used in Section 5.2 (Experience Narratives) & Thematic Findings
-- **`field_notes_experience_session.txt`** → Used in Section 3.3 (Context & Observations)
+- **`devex_rationale_quotes.csv`** → Used in Section 3.2 (Qualitative Analysis) & Thematic Coding, Section 5.2 (Experience Narratives), Thematic Findings, Section 3.3 (Context & Observations)
 
 ### Analysis & Results Files
 
 - **`thematic_analysis_codebook.xlsx`** → Methodology documentation for qualitative coding
-- **`mixed_methods_integration_results.pdf`** → Cross-validation findings between quantitative & qualitative data
-- **`devex_dimension_mapping.xlsx`** → Maps datasets to specific DevEx dimensions analyzed
-
 ---
 
 ## How Datasets Support Key Findings
