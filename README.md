@@ -199,7 +199,7 @@ Together, these four fields are sufficient to replicate the aggregate metrics re
 
 ### Qualitative Datasets
 
-- **`devex_rationale_quotes.csv`** → Used in Section 3.2 (Qualitative Analysis) & Thematic Coding, Section 5.2 (Experience Narratives), Thematic Findings, Section 3.3 (Context & Observations)
+- **Coding Table: `devex_rationale_quotes.csv`** → Used in Section 3.2 (Qualitative Analysis) & Thematic Coding, Section 5.2 (Experience Narratives), Thematic Findings, Section 3.3 (Context & Observations)
 
 ### Analysis & Results Files
 
