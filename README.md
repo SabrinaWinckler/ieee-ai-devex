@@ -78,7 +78,6 @@ NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
 | **GitHub Copilot Users** | 21 | 58.3% | With telemetry data available |
 | **Windsurf Users** | 2 | 5.6% | Qualitative data only |
 | **No AI Tool Subscription** | 8 | 22.2% | Non-adopters |
-| **Copilot Active (≤7 days)** | 17 | 47.2% | Recent usage activity |
 | **Copilot Inactive (7-30 days)** | 4 | 11.1% | Moderate inactivity |
 | **Copilot Inactive (>30 days)** | 1 | 2.8% | Extended inactivity |
 
