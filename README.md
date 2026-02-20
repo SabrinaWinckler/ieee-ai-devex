@@ -41,29 +41,28 @@ The datasets in this repository directly support the following analysis componen
 │  Reported detailed experiences with AI tools             │
 └────────────────┬────────────────────────────────────────┘
                  │
-                 ├─────────────────────────────────────────┐
-                 │                                         │
-                 ▼                                         ▼
-        ┌─────────────────────┐              ┌──────────────────────┐
-        │  COPILOT USERS      │              │  WINDSURF USERS      │
-        │  21 people          │              │  2 people            │
-        │  (58.3% of total)   │              │  (5.6% of total)     │
-        │  WITH TELEMETRY     │              │  QUALITATIVE ONLY    │
-        └──────────┬──────────┘              └──────────────────────┘
-                   │
-                   ├─────────────────────────────┐
-                   │                             │
-                   ▼                             ▼
-        ┌──────────────────────┐    ┌──────────────────────┐
-        │  ACTIVE USERS        │    │  INACTIVE USERS      │
-        │  (Last 7 days)       │    │  (7-30+ days)        │
-        │  17 people           │    │  4 people            │
-        │  (47.2% of total)    │    │  (11.1% of total)    │
-        │                      │    │                      │
-        │                      │    │  + 1 person          │
-        │                      │    │  (>30 days inactive) │
-        │                      │    │  (2.8% of total)     │
-        └──────────────────────┘    └──────────────────────┘
+                 ├─────────────────│────────────────────────┐
+                 │                 │                        │
+                 ▼                 │                        ▼
+        ┌─────────────────────┐    │          ┌──────────────────────┐
+        │  COPILOT USERS      │    │          │  WINDSURF USERS      │
+        │  21 people          │    │          │  2 people            │
+        │  (58.3% of total)   │    │          │  (5.6% of total)     │
+        │  WITH TELEMETRY     │    │          │  QUALITATIVE ONLY    │
+        └─────────────────────┘    │          └──────────────────────┘
+                                   |
+                                   │
+                                   ▼
+                      ┌──────────────────────┐
+                      │  INACTIVE USERS      │
+                      │  (7-30+ days)        │
+                      │  4 people            │
+                      │  (11.1% of total)    │
+                      │                      │
+                      │  + 1 person          │
+                      │  (>30 days inactive) │
+                      │  (2.8% of total)     │
+                      └──────────────────────┘
 
 NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
 ```
