@@ -154,7 +154,7 @@ Together, these four fields are sufficient to replicate the aggregate metrics re
 
 > **⚠️ Note on Data Availability and Retention**
 >
-> The CSV file available in the repository covers only the period from **July to August 2025**, while the article presents data from **February to August 2025**. As a result, the values in the replication package will be lower than the cumulative figures reported in the paper — this is expected and does not indicate inconsistency.
+> The CSV file available in the repository covers only the period from **July to August 2025**, while the article presents data from **May to August 2025**. As a result, the values in the replication package will be lower than the cumulative figures reported in the paper — this is expected and does not indicate inconsistency.
 >
 > This limitation stems from a platform retention issue: **GitHub Copilot Metrics Viewer (v2.0.2)** had limited historical data retention. Figure 1 was exported during the study period. After upgrading to **v2.1.2**, access to raw telemetry for **May–June 2025** was no longer available, leaving only the July–August 2025 data for the replication package. Although this reduces data granularity, the cumulative metrics and visual trends still align with the reported statistics, preserving trend validity.
 >
