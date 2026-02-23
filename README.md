@@ -148,7 +148,7 @@ $$\text{Line Acceptance Rate} = \frac{\sum \text{Lines Accepted}}{\sum \text{Lin
 | 24.23% acceptance rate | `acceptances_count / suggestions_count` |
 | 16.36% line acceptance | `lines_accepted / lines_suggested` |
 
-Together, these four fields are sufficient to replicate the aggregate metrics reported in this study (47,336 prompts, 98,797 suggestions, and a 24.23% suggestion-level acceptance rate among 21 developers over ten months).
+Together, these four fields are sufficient to replicate the aggregate metrics reported in this study (47,336 prompts, 98,797 suggestions, and a 24.23% suggestion-level acceptance rate among 21 developers over three months).
 
 ---
 
