@@ -85,10 +85,10 @@ NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
 ## Data Collection Methodology
 
 ### Phase 1: Quantitative Data Collection
-- **Source**: GitHub Copilot telemetry data
-- **Sample**: 21 active GitHub Copilot users
-- **Type**: Usage metrics, acceptance rates, session duration
-- **Purpose**: Measure objective usage patterns and adoption trends
+- **Source**: Internal survey + GitHub Copilot telemetry data
+- **Sample**: 36 developers
+- **Type**: Tool adoption mapping, usage frequency, preferred AI coding assistants
+- **Purpose**: Establish a baseline landscape of current AI tool usage across the team — identifying how many developers use GitHub Copilot, Windsurf, other assistants, or no AI tooling at all
 
 ### Phase 2: Qualitative Data Collection
 - **Method**: Participal observatopm
