@@ -92,7 +92,7 @@ NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
 
 ### Phase 2: Qualitative Data Collection
 - **Method**: Participant observation
-- **Sample**: 9 participants (from 26 meeting participants from 36-person technical unit)
+- **Sample**: 9 reporterd in-depth reflections out of 26 meeting participants (from a 36-person technical unit)
 - **Type**: Experience narratives, challenges, benefits, recommendations
 - **Purpose**: Understand subjective developer experience and contextual factors
 
