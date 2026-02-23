@@ -91,8 +91,8 @@ NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
 - **Purpose**: Establish a baseline landscape of current AI tool usage across the team — identifying how many developers use GitHub Copilot, Windsurf, other assistants, or no AI tooling at all
 
 ### Phase 2: Qualitative Data Collection
-- **Method**: Participal observatopm
-- **Sample**: 9 participants (from 36)
+- **Method**: Participant observation
+- **Sample**: 9 participants (from 26 meeting participants from 36-person technical unit)
 - **Type**: Experience narratives, challenges, benefits, recommendations
 - **Purpose**: Understand subjective developer experience and contextual factors
 
