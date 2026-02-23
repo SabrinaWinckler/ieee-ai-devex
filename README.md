@@ -86,7 +86,7 @@ NO AI-TOOL SUBSCRIPTION: 8 people (22.2%)
 
 ### Phase 1: Quantitative Data Collection
 - **Source**: Internal survey + GitHub Copilot telemetry data
-- **Sample**: 36 technical unit person
+- **Sample**: 36 technical unit person (Github Copilot = 26, Windsurf = 2, No tool Subscription = 8)
 - **Type**: Tool adoption mapping, usage frequency, preferred AI coding assistants
 - **Purpose**: Establish a baseline landscape of current AI tool usage across the team — identifying how many developers use GitHub Copilot, Windsurf, other assistants, or no AI tooling at all
 
